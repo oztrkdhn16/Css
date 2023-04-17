@@ -1,0 +1,27 @@
+/* A tagi hepsini ayni renk yapar. */
+a{
+    color: rgb(247, 10, 10);
+    text-decoration: none;
+}
+
+/* Ziyaret Edilmeyenlerin Linklerin rengi*/
+a:link{
+    color: chocolate;
+} 
+
+/* Ziyaret Edilenlerin Linklerin rengi*/
+a:visited{
+    color: rgb(154, 198, 22);
+}
+
+a:hover{
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+.title:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* cursor: pointer: mouse imleci degisiyor.*/
