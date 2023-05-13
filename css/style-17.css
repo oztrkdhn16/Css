@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+h1{
+    font-size: 4rem;
+    color: chartreuse;
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+    padding: 2rem;
+}
