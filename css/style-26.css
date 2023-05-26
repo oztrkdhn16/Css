@@ -1,0 +1,37 @@
+nav.menu li{
+    color: red;
+}
+
+nav.menu > ul > li{ /* > isareti child anlamina geliyor. */
+    color: green;
+}
+
+nav.menu ul ul > li{
+    color: chartreuse;
+}
+
+nav.menu ul ul li:last-child{ /* Sadece Carsamba */
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav.menu + div + p{
+    font-size: 1.5rem;
+}
+
+nav.menu ~ p{
+    color: orange;
+}
+
+nav.menu ul > li:nth-child(3)~li{
+    color: black;
+}
+
+/* 
+nav.menu + p{
+    font-size: 1.5rem;
+}
+
+Bu olmuyor cunku arada div tagi var.
+*/
+
