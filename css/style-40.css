@@ -1,0 +1,30 @@
+.box{
+    width:100px;
+    height: 100px;
+}
+.box1{
+    background-color: red;
+    position: relative;/*Hareket etmek icin kullanilir. Default ta static'tir.*/
+    left: 200px;
+    top: 150px;
+}
+.box2{
+    background-color: blue;
+    position: relative;
+    left:150px;
+    top:20px;
+}
+
+.parent{
+    height: 50vh;
+    background-color: aqua;
+    position: relative;
+}
+
+.parent img{
+    width: 50px;
+    height: auto;
+    position: absolute;/*Parenti olana position: relative veriyoruz.*/
+    right: 40px;
+    bottom: 30px;
+}
