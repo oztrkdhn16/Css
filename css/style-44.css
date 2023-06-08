@@ -1,0 +1,9 @@
+.box{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    transform: translateX(50%);
+}
+.img-iphone{
+    transform: rotate(-60deg) scale(0.5) translate(60%);
+}
